@@ -1,0 +1,73 @@
+.suggested-wrapper {
+    width: 400px;
+    padding:20px;
+    margin:20px;
+
+    .suggested-logout {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .profile-logoutinfo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            img {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            h4{
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .suggested-card {
+        margin:14px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .profile-logoutinfo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            img {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+                h4{
+                    font-weight: 500;
+                    font-size: 14px; 
+                }
+                h6{
+                    color:#9e9d9d;
+                }
+            }
+        }
+        span{
+            color: #0095F6; 
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    P{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .suggested-wrapper {
+        display: none;
+    }
+}

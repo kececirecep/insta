@@ -1,0 +1,25 @@
+.aside-wrapper {
+    border-right: 1px solid #dbdbdb; 
+    width: 400px;
+    height: 100vh;
+    padding: 15px; 
+
+    .aside {
+        position: fixed;  
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .aside-wrapper {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aside-wrapper {
+        display: none;
+    }
+}
