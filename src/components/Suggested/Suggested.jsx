@@ -17,7 +17,7 @@ const Suggested = () => {
           <div className="text">
             <h4>fenerbahcesk</h4>
             <h6>77 followers</h6>
-          </div>
+          </div> 
         </div>
         <span>Follow</span>
       </div>

@@ -37,7 +37,7 @@ const HomePost = () => {
           <input type="text" placeholder='Add a comment...' />
           <button>Post</button>
         </form>
-      </div>
+      </div> 
       
     </div>
   )
